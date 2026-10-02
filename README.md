@@ -2,6 +2,10 @@
 
 API REST didattica per la gestione di un catalogo di libri in memoria. Il progetto consolida le basi di Spring Boot: controller, service, validazione e corretta costruzione delle risposte HTTP.
 
+## Stato e ruolo
+
+**Esercizio di base in memoria, conservato per consultazione e ripasso.** Il suo scopo è allenare MVC, validazione e semantica HTTP. Non è un prodotto da espandere in parallelo ai backend principali.
+
 ## Competenze dimostrate
 
 - creazione di endpoint REST con Spring Web MVC;
@@ -88,12 +92,9 @@ Su Windows utilizza `mvnw.cmd spring-boot:run`. Il servizio sarà disponibile su
 - le eccezioni non sono ancora convertite in un modello di errore globale;
 - non sono presenti DTO separati o test applicativi completi.
 
-## Sviluppi successivi
+## Eventuale ripresa
 
-- completare le operazioni CRUD;
-- introdurre DTO e gestione centralizzata degli errori;
-- aggiungere persistenza con JPA e MySQL;
-- aggiungere test unitari e di integrazione.
+Non ci sono nuove funzionalità attive. Una sessione può scegliere un singolo esercizio su DTO, error handling o test, mantenendo lo scope in memoria. Database, Security e CRUD aggiuntivo non sono requisiti per considerare utile questo esercizio.
 
 ## Autore
 
